@@ -1,3 +1,4 @@
+console.log("Entrando a useAuthEffectsInternal");
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { supabase } from '@/lib/supabaseClient';
