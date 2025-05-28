@@ -1,0 +1,9 @@
+`.
+
+Aquí te explico el proceso paso a paso:
+
+1.  **Identifica el Archivo a Modificar:**
+    *   Dentro de la etiqueta `<horizonsAction ...>`, busca el atributo `filePath`. Este te dice exactamente qué archivo en tu proyecto necesita ser actualizado. Por ejemplo, `filePath="src/App.jsx"` significa que los cambios son para el archivo `App.jsx` que está dentro de la carpeta `src`.
+
+2.  **Copia el Contenido del Código:**
+    *   Todo el texto que está *dentro* de una etiqueta `<horizonsAction ...>` y su correspondiente `

@@ -1,0 +1,12 @@
+
+    {
+      "common": "locales/es/common.json",
+      "home": "locales/es/home.json",
+      "auth": "locales/es/auth.json",
+      "projections": "locales/es/projections.json",
+      "calculators": "locales/es/calculators.json",
+      "subscription": "locales/es/subscription.json",
+      "profile": "locales/es/profile.json",
+      "admin": "locales/es/admin.json"
+    }
+  

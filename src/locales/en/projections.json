@@ -1,0 +1,22 @@
+
+    {
+      "projections_page_title": "Projections and News",
+      "projections_restricted_title": "Restricted Access",
+      "projections_restricted_desc": "This section is exclusive for subscribed users. Please subscribe to access our market projections and news.",
+      "projections_view_subscription_button": "View Subscription Plans",
+      "projections_operations_title": "Operations Projections",
+      "projections_no_projections_message": "No projections available at this moment. Check back later.",
+      "projections_published_label": "Published",
+      "projections_entry_label": "Entry",
+      "projections_stop_loss_label": "Stop Loss",
+      "projections_take_profit_label": "Take Profit",
+      "projections_detailed_analysis_label": "Detailed Analysis",
+      "projections_market_news_title": "Market News",
+      "projections_no_news_message": "No news available at this moment. Check back later.",
+      "projections_status_bullish": "BULLISH",
+      "projections_status_bearish": "BEARISH",
+      "projections_status_neutral": "NEUTRAL",
+      "projections_risk_warning_title": "Important: Risk Management",
+      "projections_risk_warning_message": "Remember: It is recommended to risk a maximum of 1% of your capital per operation. Trading involves risks, operate responsibly."
+    }
+  

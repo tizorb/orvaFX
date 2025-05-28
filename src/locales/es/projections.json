@@ -1,0 +1,22 @@
+
+    {
+      "projections_page_title": "Proyecciones y Noticias",
+      "projections_restricted_title": "Acceso Restringido",
+      "projections_restricted_desc": "Esta sección es exclusiva para usuarios suscritos. Por favor, suscríbete para acceder a nuestras proyecciones y noticias del mercado.",
+      "projections_view_subscription_button": "Ver Planes de Suscripción",
+      "projections_operations_title": "Proyecciones de Operaciones",
+      "projections_no_projections_message": "No hay proyecciones disponibles en este momento. Vuelve más tarde.",
+      "projections_published_label": "Publicado",
+      "projections_entry_label": "Entrada",
+      "projections_stop_loss_label": "Stop Loss",
+      "projections_take_profit_label": "Take Profit",
+      "projections_detailed_analysis_label": "Análisis Detallado",
+      "projections_market_news_title": "Noticias del Mercado",
+      "projections_no_news_message": "No hay noticias disponibles en este momento. Vuelve más tarde.",
+      "projections_status_bullish": "ALCISTA",
+      "projections_status_bearish": "BAJISTA",
+      "projections_status_neutral": "NEUTRAL",
+      "projections_risk_warning_title": "Importante: Gestión de Riesgo",
+      "projections_risk_warning_message": "Recuerda: Se recomienda arriesgar como máximo el 1% de tu capital por operación. El trading conlleva riesgos, opera con responsabilidad."
+    }
+  
