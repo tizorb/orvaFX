@@ -1,5 +1,6 @@
 import React from "react";
 import { AuthProvider, useAuth } from "./contexts/AuthContext";
+import { supabase } from "./supabaseClient";
 
 function Loader() {
   return (
@@ -14,7 +15,7 @@ function Login() {
   const handleLogin = async () => {
     const email = window.prompt("Email:");
     if (!email) return;
-    const { error } = await window.supabase.auth.signInWithOtp({ email });
+    const { error } = await supabase.auth.signInWithOtp({ email });
     if (error) alert("Error: " + error.message);
     else alert("Revisa tu email para el link de acceso.");
   };
@@ -31,7 +32,7 @@ function Dashboard() {
   const { user } = useAuth();
 
   const handleLogout = async () => {
-    await window.supabase.auth.signOut();
+    await supabase.auth.signOut();
   };
 
   return (
@@ -51,10 +52,6 @@ function MainApp() {
 }
 
 function App() {
-  React.useEffect(() => {
-    window.supabase = require("./supabaseClient").supabase;
-  }, []);
-
   return (
     <AuthProvider>
       <MainApp />
