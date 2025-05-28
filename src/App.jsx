@@ -1,3 +1,5 @@
+import { supabase } from "./supabaseClient";
+
 import React from "react";
 import { AuthProvider, useAuth } from "./contexts/AuthContext";
 import { supabase } from "./supabaseClient";
