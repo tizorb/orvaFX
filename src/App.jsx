@@ -1,4 +1,4 @@
-
+import './i18n'; // Esto debe estar arriba de todo
     import React from 'react';
     import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
     import { Home } from '@/pages/Home';
