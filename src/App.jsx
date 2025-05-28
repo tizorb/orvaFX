@@ -12,8 +12,6 @@ function Loader() {
 
 function Login() {
   const handleLogin = async () => {
-    // ¡Cambia esto por tu método real de login!
-    // Por ejemplo, login con email y password o magic link
     const email = window.prompt("Email:");
     if (!email) return;
     const { error } = await window.supabase.auth.signInWithOtp({ email });
@@ -53,7 +51,6 @@ function MainApp() {
 }
 
 function App() {
-  // Para que el login funcione como ejemplo (NO HAGAS ESTO EN PROD)
   React.useEffect(() => {
     window.supabase = require("./supabaseClient").supabase;
   }, []);
@@ -66,4 +63,3 @@ function App() {
 }
 
 export default App;
-  
