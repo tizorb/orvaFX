@@ -9,7 +9,7 @@
       setLoading(true);
       try {
         const { data: { session }, error: sessionError } = await supabase.auth.getSession();
-
+console.log("getSession result:", session, sessionError);
         if (sessionError) {
           console.error("loadInitialSession: Error fetching session:", sessionError.message);
           await performLogout(true);
